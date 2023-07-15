@@ -1,0 +1,35 @@
+/* Write your code here. */
+.faq-container {
+  border: #d7dae6 2px solid;
+  border-radius: 20px;
+  padding: 30px;
+  margin-top: 30px;
+  /* display: flex;
+  flex-direction: column;
+  align-items: center; */
+}
+
+.question-container {
+  display: flex;
+  justify-content: space-between;
+}
+
+.btn {
+  background-color: transparent;
+  border: none;
+  cursor: pointer;
+}
+
+.question {
+  font-family: roboto;
+  font-size: 25px;
+  font-weight: 500;
+  color: #52606d;
+}
+
+.answer {
+  font-family: roboto;
+  font-size: 17px;
+  font-weight: 500;
+  color: #9aa5b1;
+}
